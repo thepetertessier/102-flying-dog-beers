@@ -6,7 +6,7 @@ from dash import dcc
 import plotly.graph_objs as go
 
 ########### Define your variables
-beers=['Elon Musk', 'Bernard Arnault & family', 'Jeff Bezos', 'Bill']
+beers=['Elon Musk', 'Bernard Arnault & family', 'Jeff Bezos', 'Bill Gates']
 ibu_values=[219, 177, 158, 129]
 abv_values=[211.2, 139.1, 131.5, 121.8]
 color1='darkred'
