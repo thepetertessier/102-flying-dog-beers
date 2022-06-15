@@ -6,18 +6,18 @@ from dash import dcc
 import plotly.graph_objs as go
 
 ########### Define your variables
-beers=['Chesapeake Stout', 'Snake Dog IPA', 'Imperial Porter', 'Double Dog IPA']
-ibu_values=[35, 60, 85, 75]
-abv_values=[5.4, 7.1, 9.2, 4.3]
+beers=['Elon Musk', 'Bernard Arnault & family', 'Jeff Bezos', 'Bill']
+ibu_values=[219, 177, 158, 129]
+abv_values=[211.2, 139.1, 131.5, 121.8]
 color1='darkred'
 color2='blue'
-mytitle='Beer Comparison'
-tabtitle='beer!'
-myheading='Flying Dog Beers'
-label1='IBU'
-label2='ABV'
-githublink='https://github.com/austinlasseter/flying-dog-beers'
-sourceurl='https://www.flyingdog.com/beers/'
+mytitle='Forbes vs Wikipedia 06/15/2022'
+tabtitle='billionaires!'
+myheading='Four Richest People'
+label1='Forbes'
+label2='Wikipedia'
+githublink='https://github.com/thepetertessier/102-flying-dog-beers'
+sourceurl='https://en.wikipedia.org/wiki/The_World%27s_Billionaires'
 
 ########### Set up the chart
 bitterness = go.Bar(
